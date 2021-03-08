@@ -11,6 +11,3 @@
 | 정지원 | 8개 | 9개 | 7개 | 7개 |
 
 
-#### 안드로이드 img 제출 과제
-
-<img width="499" alt="과제1" src="https://user-images.githubusercontent.com/29851704/110066003-dde01400-7db3-11eb-9764-0336124c3a97.PNG">
