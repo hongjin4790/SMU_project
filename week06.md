@@ -1,2 +1,14 @@
 
 # WEEK 06
+
+### 김홍진
+- 이메일 인증
+> > 이메일로 회원가입을 하면 가입을 한 이메일로 인증메일이 간다. 인증을 하면 다음으로 회원정보를 입력해야한다. 입력을 하면 DB에 내 정보가 저장이 된다.
+<img width="632" alt="이메일인증" src="https://user-images.githubusercontent.com/29851704/114301396-9b6ecd00-9aff-11eb-8daa-c33e7cb04a67.PNG">
+
+- 채팅기능 구현
+<img width="185" alt="채팅창" src="https://user-images.githubusercontent.com/29851704/114301487-1df78c80-9b00-11eb-8ab8-f96211175cc6.PNG">
+> > 회원정보를 입력하면 DB에 저장이 된다.
+<img width="234" alt="DB내저보 저장" src="https://user-images.githubusercontent.com/29851704/114301549-4da69480-9b00-11eb-8f53-e592aec8de22.PNG">
+> > 서로 채팅을 하면 채팅한 내용들이 실시간으로 DB에 저장되고 저장된 값을 읽어오는 방법으로 구현했다.
+<img width="175" alt="채팅내용" src="https://user-images.githubusercontent.com/29851704/114301590-762e8e80-9b00-11eb-85a2-283b0de2e8f2.PNG">
