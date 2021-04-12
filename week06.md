@@ -6,7 +6,7 @@
 1. 이메일로 회원가입을 하면 가입을 한 이메일로 인증메일이 간다. 인증을 하면 다음으로 회원정보를 입력해야한다. 입력을 하면 DB에 내 정보가 저장이 된다.
 <img width="632" alt="이메일인증" src="https://user-images.githubusercontent.com/29851704/114301396-9b6ecd00-9aff-11eb-8daa-c33e7cb04a67.PNG">
 
-- 채팅기능 구현
+# - 채팅기능 구현
 <img width="185" alt="채팅창" src="https://user-images.githubusercontent.com/29851704/114301487-1df78c80-9b00-11eb-8ab8-f96211175cc6.PNG">
 1. 회원정보를 입력하면 DB에 저장이 된다.
 <img width="234" alt="DB내저보 저장" src="https://user-images.githubusercontent.com/29851704/114301549-4da69480-9b00-11eb-8f53-e592aec8de22.PNG">
@@ -24,7 +24,7 @@
 <img src="https://user-images.githubusercontent.com/29966841/114388652-f02d4900-9bce-11eb-95b8-28175bb33c81.png" width="400">
 그러나 코드를 실행시키자 'Could not find androidx.recycleview:recycleview:1.0.0.'라는 오류 메시지가 뜨면서 실행이 되지않아 현재 해결중에있다.
 
-- 게시판 구현
+# - 게시판 구현
 <img src="https://user-images.githubusercontent.com/29966841/114389922-93329280-9bd0-11eb-92ca-b7f8a6b09c74.png" width="400">
 -> 그림과 같은 형태의 게시판을 구현하는것을 목표로 파이어베이스와 연동하여 게시판을 만들어보았다.
 <img src="https://user-images.githubusercontent.com/29966841/114390480-4dc29500-9bd1-11eb-9d94-210610158df6.png" width="400">
