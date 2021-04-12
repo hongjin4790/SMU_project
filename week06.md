@@ -17,6 +17,8 @@
 - Recyclerview를 이용한 게시물 보여주기
 <img src="https://user-images.githubusercontent.com/29966841/114386356-14d3f180-9bcc-11eb-8730-0098ee8653c2.png" width="400">
 -> recyclerview를 이용하여 데이터베이스에 있는 내용을 게시글로 보여주는 기능을 구현하려 하였다.
+
 <img src="https://user-images.githubusercontent.com/29966841/114387845-e7884300-9bcd-11eb-8a10-e41e8fffe0bb.png" width="300">
 <img src="https://user-images.githubusercontent.com/29966841/114387850-e9ea9d00-9bcd-11eb-8a31-f1a2b1206a05.png" width="300">
 -> 안드로이드 스튜디오와 파이어베이스를 연결하고 데이터를 전송하는 부분까지 성공하였다.
+   그러나 코드를 실행시키자 'Could not find androidx.recycleview:recycleview:1.0.0.'라는 오류 메시지가 뜨면서 실행이 되지않아 현재 해결중에있다.
