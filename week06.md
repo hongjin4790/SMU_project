@@ -12,3 +12,7 @@
 <img width="234" alt="DB내저보 저장" src="https://user-images.githubusercontent.com/29851704/114301549-4da69480-9b00-11eb-8f53-e592aec8de22.PNG">
 2. 서로 채팅을 하면 채팅한 내용들이 실시간으로 DB에 저장되고 저장된 값을 읽어오는 방법으로 구현했다.
 <img width="175" alt="채팅내용" src="https://user-images.githubusercontent.com/29851704/114301590-762e8e80-9b00-11eb-85a2-283b0de2e8f2.PNG">
+
+### 정지원
+- Recyclerview를 이용한 게시물 보여주기
+![recyclerview](https://user-images.githubusercontent.com/29966841/114386113-c32b6700-9bcb-11eb-9253-eb82aa9b6861.png)
