@@ -15,4 +15,4 @@
 
 ### 정지원
 - Recyclerview를 이용한 게시물 보여주기
-<img src = "https://user-images.githubusercontent.com/29966841/114386356-14d3f180-9bcc-11eb-8730-0098ee8653c2.png">
+<img src="https://user-images.githubusercontent.com/29966841/114386356-14d3f180-9bcc-11eb-8730-0098ee8653c2.png" width="400" height="300">
