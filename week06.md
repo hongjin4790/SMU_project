@@ -21,5 +21,5 @@
 <img src="https://user-images.githubusercontent.com/29966841/114387845-e7884300-9bcd-11eb-8a10-e41e8fffe0bb.png" width="300">
 <img src="https://user-images.githubusercontent.com/29966841/114387850-e9ea9d00-9bcd-11eb-8a31-f1a2b1206a05.png" width="300">
 -> 안드로이드 스튜디오와 파이어베이스를 연결하고 데이터를 전송하는 부분까지 성공하였다.
-<img src="https://user-images.githubusercontent.com/29966841/114388652-f02d4900-9bce-11eb-95b8-28175bb33c81.png" width="300">
+<img src="https://user-images.githubusercontent.com/29966841/114388652-f02d4900-9bce-11eb-95b8-28175bb33c81.png" width="400">
 그러나 코드를 실행시키자 'Could not find androidx.recycleview:recycleview:1.0.0.'라는 오류 메시지가 뜨면서 실행이 되지않아 현재 해결중에있다.
