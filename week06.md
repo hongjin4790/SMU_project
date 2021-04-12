@@ -25,6 +25,9 @@
 그러나 코드를 실행시키자 'Could not find androidx.recycleview:recycleview:1.0.0.'라는 오류 메시지가 뜨면서 실행이 되지않아 현재 해결중에있다.
 
 #### - 게시판 구현
-<img src="https://user-images.githubusercontent.com/29966841/114389922-93329280-9bd0-11eb-92ca-b7f8a6b09c74.png" width="400">
+<img src="https://user-images.githubusercontent.com/29966841/114389922-93329280-9bd0-11eb-92ca-b7f8a6b09c74.png" width="300">
 -> 그림과 같은 형태의 게시판을 구현하는것을 목표로 파이어베이스와 연동하여 게시판을 만들어보았다.
 <img src="https://user-images.githubusercontent.com/29966841/114390480-4dc29500-9bd1-11eb-9d94-210610158df6.png" width="400">
+-> 위의 사진과 같이 목표한 형태로 게시판을 구현하였고 파이어베이스와 연결도 성공하였다.
+<img src="https://user-images.githubusercontent.com/29966841/114391020-efe27d00-9bd1-11eb-9319-16f771428bb1.png" width="400">
+그러나 프로젝트를 실행시키는 과정에서 오류가 발생하여 해결하는 과정에 있다.
