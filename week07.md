@@ -4,14 +4,11 @@
 
 새로 추가한 기능으로 원래는 채팅 기능만 구현해둬서 바로 채팅화면으로 넘어갔는데 지금은 채팅방이 생성되서 여러사람들과 채팅을 할 수 있다.<br>
 
-1.처음화면
 <img src="https://user-images.githubusercontent.com/29851772/115218098-26277b80-a141-11eb-9218-ec68a0701e7b.jpg" width="300">
 -> 일단 처음 채팅 기능을 실행시키게 되면 자신이 채팅에 참여해 다른 사용자들에게 보여질 이름을 설정하라는 창을 보여준다.
 
-
-
-
 <img src="https://user-images.githubusercontent.com/29851772/115218317-6686f980-a141-11eb-8492-2a2d6932bc27.jpg" width="300">
+-> 사용자 이름을 설정하면 이미 생성 되어있는 채팅방들의 목록이 보여지고, '채팅방 생성'버튼을 통해 새로운 채팅방을 만들수도 있다.
 
 <img src="https://user-images.githubusercontent.com/29851772/115218376-76064280-a141-11eb-930e-3fb26acfb7d2.jpg" width="300">
 
