@@ -17,7 +17,9 @@
 <img src="https://user-images.githubusercontent.com/29851772/115218430-828a9b00-a141-11eb-9ecd-bd3d618838fd.jpg" width="300">
 -> 채팅방에 들어가 직접 채팅을 하는 화면이다. 채팅방에서 입력되는 채팅 내용들은 실시간으로 데이터베이스로 전송된다.
 
-<img src="https://user-images.githubusercontent.com/29851772/115218495-91714d80-a141-11eb-8c3d-0ae5fd432fa1.jpg" width="300"><br>
+
+
+<img src="https://user-images.githubusercontent.com/29851772/115218495-91714d80-a141-11eb-8c3d-0ae5fd432fa1.jpg" width="300">
 
 어플 실행 후 바로 화면에 보여지는 로딩화면으로 어플의 첫 이미지를 결정한다. 
 
