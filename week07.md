@@ -17,7 +17,7 @@
 <img src="https://user-images.githubusercontent.com/29851772/115218430-828a9b00-a141-11eb-9ecd-bd3d618838fd.jpg" width="300">
 -> 채팅방에 들어가 직접 채팅을 하는 화면이다. 채팅방에서 입력되는 채팅 내용들은 실시간으로 데이터베이스로 전송된다.
 
-<img src="https://user-images.githubusercontent.com/29966841/115234988-9db2d600-a154-11eb-8752-e34eb40b513d.png" width="300">
+<img src="https://user-images.githubusercontent.com/29966841/115235199-e4a0cb80-a154-11eb-8cf6-8efb9fe21364.png" width="300">
 -> 
 
 
