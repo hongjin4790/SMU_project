@@ -7,7 +7,7 @@
 <img src="https://user-images.githubusercontent.com/29851772/115218098-26277b80-a141-11eb-9218-ec68a0701e7b.jpg" width="300">
 -> 일단 처음 채팅 기능을 실행시키게 되면 자신이 채팅에 참여해 다른 사용자들에게 보여질 이름을 설정하라는 창을 보여준다.
    그리고 본인이 사용할 이름을 설정한다.
-<br>
+   
 <img src="https://user-images.githubusercontent.com/29851772/115218317-6686f980-a141-11eb-8492-2a2d6932bc27.jpg" width="300">
 -> 사용자 이름을 설정하면 이미 생성 되어있는 채팅방들의 목록이 보여지고, '채팅방 생성'버튼을 통해 새로운 채팅방을 만들수도 있다.
 
@@ -15,7 +15,7 @@
 -> '채팅방 생성'버튼을 누르면 다음과 같이 채팅방 이름을 입력하고 채팅방을 생성한다.
 
 <img src="https://user-images.githubusercontent.com/29851772/115218430-828a9b00-a141-11eb-9ecd-bd3d618838fd.jpg" width="300">
--> 
+-> 채팅방에 들어가 직접 채팅을 하는 화면이다. 채팅방에서 입력되는 채팅 내용들은 실시간으로 데이터베이스로 전송된다.
 
 <img src="https://user-images.githubusercontent.com/29851772/115218495-91714d80-a141-11eb-8c3d-0ae5fd432fa1.jpg" width="300">
 
