@@ -10,8 +10,10 @@
 ## 교수님 피드백 해주신 '어플의 상업화 방안'에 대한 BrainStorming
 1. 어플 메인화면에 광고 배너 배치 -> 요즘 어플리캐이션 시장에 나오는 어플들을 보면 대놓고 사용자들에게 결제를 유도하기 보다는 어플 내의 광고를 포함시켜 수익을 창출하는 경향이 많기 때문에 
    이와 같은 방안을 생각하였다.
+<어플 내 광고배너 예시>
 <img src="https://user-images.githubusercontent.com/29966841/116092161-88075880-a6e0-11eb-943a-b3dade7dfb53.png" width="200" height="300"> 
 <img src="https://user-images.githubusercontent.com/29966841/116092372-b71dca00-a6e0-11eb-9633-e01611f2c1d2.png" width="200" height="300">
+
 <img src="https://user-images.githubusercontent.com/29966841/116092684-fa783880-a6e0-11eb-9194-202769e2d59c.png" width="200" height="300">
 <img src="https://user-images.githubusercontent.com/29966841/116092727-0401a080-a6e1-11eb-991d-2bd1510b22ab.png" width="200" height="300">
 
