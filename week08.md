@@ -12,8 +12,7 @@
    이와 같은 방안을 생각하였다.
 
 ### <어플 내 광고배너 예시>
-<img src="https://user-images.githubusercontent.com/29966841/116092161-88075880-a6e0-11eb-943a-b3dade7dfb53.png" width="200" height="300"> 
-<img src="https://user-images.githubusercontent.com/29966841/116092372-b71dca00-a6e0-11eb-9633-e01611f2c1d2.png" width="200" height="300">
+<img src="https://user-images.githubusercontent.com/29966841/116092161-88075880-a6e0-11eb-943a-b3dade7dfb53.png" width="200" height="300"> | <img src="https://user-images.githubusercontent.com/29966841/116092372-b71dca00-a6e0-11eb-9633-e01611f2c1d2.png" width="200" height="300">
 
 <img src="https://user-images.githubusercontent.com/29966841/116092684-fa783880-a6e0-11eb-9194-202769e2d59c.png" width="200" height="300">
 <img src="https://user-images.githubusercontent.com/29966841/116092727-0401a080-a6e1-11eb-991d-2bd1510b22ab.png" width="200" height="300">
