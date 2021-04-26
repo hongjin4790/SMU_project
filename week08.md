@@ -20,7 +20,7 @@
 <img src="https://user-images.githubusercontent.com/29966841/116092727-0401a080-a6e1-11eb-991d-2bd1510b22ab.png" width="500" height="400">
 
 - 실행화면
-<img src="https://user-images.githubusercontent.com/29966841/116093751-e7199d00-a6e1-11eb-8b9b-30b5a606b219.jpg" width="300" height="400">
+<img src="https://user-images.githubusercontent.com/29966841/116093751-e7199d00-a6e1-11eb-8b9b-30b5a606b219.jpg" width="300" height="500">
 
 
 
