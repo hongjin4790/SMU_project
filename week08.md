@@ -14,8 +14,8 @@
 ### <어플 내 광고배너 예시>
 <img src="https://user-images.githubusercontent.com/29966841/116092161-88075880-a6e0-11eb-943a-b3dade7dfb53.png" width="200" height="300">  <img src="https://user-images.githubusercontent.com/29966841/116092372-b71dca00-a6e0-11eb-9633-e01611f2c1d2.png" width="200" height="300">
 
-<img src="https://user-images.githubusercontent.com/29966841/116092684-fa783880-a6e0-11eb-9194-202769e2d59c.png" width="400" height="500">
-<img src="https://user-images.githubusercontent.com/29966841/116092727-0401a080-a6e1-11eb-991d-2bd1510b22ab.png" width="400" height="500">
+<img src="https://user-images.githubusercontent.com/29966841/116092684-fa783880-a6e0-11eb-9194-202769e2d59c.png" width="500" height="400">
+<img src="https://user-images.githubusercontent.com/29966841/116092727-0401a080-a6e1-11eb-991d-2bd1510b22ab.png" width="500" height="400">
 
 
 2. 소모임 게시판에서의 무분별한 게시글 작성을 방지하고 수익 창출을 위해 일정 수 이상의 게시글 작성을 하려면 어플 내 결제가 필요 -> 사용자들에게 대놓고 결제를 유도하는 방식은 오히려 사용자들
