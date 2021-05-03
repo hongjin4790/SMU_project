@@ -38,6 +38,19 @@ Google play console에 들어가서 등록해야 합니다.
 
 과정 중 비용이 발생하는 부분이 생겨서 교수님께 여쭤보고 실행할 생각입니다.
 
+<게시판 분류 및 게시물 목록 구현>
+
+![학교게시판](https://user-images.githubusercontent.com/29851704/116882130-09ba3180-ac5f-11eb-83e0-544406d66801.PNG)
+
+![과 게시글](https://user-images.githubusercontent.com/29851704/116882141-0cb52200-ac5f-11eb-81d7-1c465a01188d.PNG)
+
+<게시글 쓰기 및 새로고침 구현>
+
+<img width="30%" src="https://user-images.githubusercontent.com/29851704/116882885-ec399780-ac5f-11eb-91ba-9f7ba7e93420.gif"/>
+
+
+
+
 ## <Week9 회의 내용>
 #### - 각 팀원별 담당파트 진행에 필요한 어플리케이션 구조 세분화 및 조정
 
