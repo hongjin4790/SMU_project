@@ -91,13 +91,16 @@ Google play console에 들어가서 등록해야 합니다.
 프레그먼트와 하단 네비게이션바르 구현하였다.
 
 1. 한끼, 게시판과 같이 게시판을 누르게 되면 두번째 사진과 같이 선택된 버튼에 프레그먼트가 홈화면에 표시 된다.
-<img width="30%" src="https://user-images.githubusercontent.com/79888537/116883894-117ad580-ac61-11eb-98c0-ee92b21c9917.png"/> <img width="30%" src="https://user-images.githubusercontent.com/79888537/116883739-e5f7eb00-ac60-11eb-9055-ba868874d90c.png"/>
+<img width="30%" src="https://user-images.githubusercontent.com/79888537/116883894-117ad580-ac61-11eb-98c0-ee92b21c9917.png"/>  
+<img width="30%" src="https://user-images.githubusercontent.com/79888537/116883739-e5f7eb00-ac60-11eb-9055-ba868874d90c.png"/>
 
 2. 하단 네비게이션바르 누르면 게시판, 채팅과 같이 그에 맞는 화면이 fragment로 표시되게 된다.
-<img width="30%" src="https://user-images.githubusercontent.com/79888537/116884125-56067100-ac61-11eb-965d-2c0b206a6405.png"/> <img width="30%" src="https://user-images.githubusercontent.com/79888537/116884141-5acb2500-ac61-11eb-85fd-357c5e28e361.png"/>
+<img width="30%" src="https://user-images.githubusercontent.com/79888537/116884125-56067100-ac61-11eb-965d-2c0b206a6405.png"/>  
+<img width="30%" src="https://user-images.githubusercontent.com/79888537/116884141-5acb2500-ac61-11eb-85fd-357c5e28e361.png"/>
 
 3. 만약 메인 버튼화면에서 게시판을 누르게 되며 네비게이션바에 home에 게시판이 오게된다. 게시판이 home으로 가고 원래 게시판이 있던 자리엔 한끼메뉴를 넣었다.
-<img width="30%" src="https://user-images.githubusercontent.com/79888537/116885029-61a66780-ac62-11eb-94b0-b4e012bbea59.png"/> <img width="30%" src="https://user-images.githubusercontent.com/79888537/116885042-666b1b80-ac62-11eb-9ab4-40056a853058.png"/>
+<img width="30%" src="https://user-images.githubusercontent.com/79888537/116885029-61a66780-ac62-11eb-94b0-b4e012bbea59.png"/> 
+<img width="30%" src="https://user-images.githubusercontent.com/79888537/116885042-666b1b80-ac62-11eb-9ab4-40056a853058.png"/>
 
 => 하지만 이렇게 할 경우 메인엑티비티와 하단 네비게이션바가 중복되는 기능이 생기게 된다. 이 문제를 해결하기 위해 어플리케이션 실행 구조를 바꾸었다. 자세한 내용은 위에있는 <week 09 회의내용>에 나와있다.
 
