@@ -92,6 +92,8 @@ Google play console에 들어가서 등록해야 합니다.
 ### 정지원
 <조건설정 및 조건에 맞는 사용자 랜덤매칭 후 채팅방생성>
 
+- 코드 실행화면
+<img src="https://user-images.githubusercontent.com/29966841/116911457-e0f76380-ac81-11eb-93a8-82511ad6a8c2.png" width="300">
 
 
 
