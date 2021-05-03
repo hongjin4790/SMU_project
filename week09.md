@@ -107,9 +107,9 @@ Google play console에 들어가서 등록해야 합니다.
 -> 매칭되어 생성된 채팅방 목록들을 보여준다.
 
 - 오류
-<img src="https://user-images.githubusercontent.com/29966841/116912560-5879c280-ac83-11eb-9c4e-70a840f18939.png" width="200">
+<img src="https://user-images.githubusercontent.com/29966841/116912560-5879c280-ac83-11eb-9c4e-70a840f18939.png" width="400">
 
-<img src="https://user-images.githubusercontent.com/29966841/116912571-5b74b300-ac83-11eb-82ca-2cfd9338b190.png" width="200">
+<img src="https://user-images.githubusercontent.com/29966841/116912571-5b74b300-ac83-11eb-82ca-2cfd9338b190.png" width="400">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
