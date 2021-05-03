@@ -95,7 +95,10 @@ Google play console에 들어가서 등록해야 합니다.
 - 코드 실행화면
 
 '매칭시작' 부분을 클릭하게 되면 비슷한 관심사를 가진 사용자들과 매칭되게 된다.
+
 <img src="https://user-images.githubusercontent.com/29966841/116911457-e0f76380-ac81-11eb-93a8-82511ad6a8c2.png" width="200">
+
+매칭이 완료되면 채팅방이 만들어지고, 상대방과 채팅을 진행할 수 있다. 말풍선 아래에는 채팅을 읽지않은 상대방의 숫자와 채팅을 보낸 시간이 보여진다.
 
 <img src="https://user-images.githubusercontent.com/29966841/116911814-4c413580-ac82-11eb-90f8-b1756976adfd.png" width="200">
 
