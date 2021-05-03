@@ -93,8 +93,10 @@ Google play console에 들어가서 등록해야 합니다.
 <조건설정 및 조건에 맞는 사용자 랜덤매칭 후 채팅방생성>
 
 - 코드 실행화면
-<img src="https://user-images.githubusercontent.com/29966841/116911457-e0f76380-ac81-11eb-93a8-82511ad6a8c2.png" width="300">
+'매칭시작' 부분을 클릭하게 되면 비슷한 관심사를 가진 사용자들과 매칭되게 된다.
+<img src="https://user-images.githubusercontent.com/29966841/116911457-e0f76380-ac81-11eb-93a8-82511ad6a8c2.png" width="200">
 
+<img src="https://user-images.githubusercontent.com/29966841/116911814-4c413580-ac82-11eb-90f8-b1756976adfd.png" width="200">
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
