@@ -93,3 +93,35 @@ userRef.addListenerForSingleValueEvent(new ValueEventListener() {
 });
 하지만 데이터를 가져오는 과정에서 오류가 생겨서 해결하는 데 많은 시간을 썼다. 
 이 후 해야 할 일은 수정한 정보를 EditText에 적고 이 값으로 해당 DB에 값을 바꿀 것이고 탈퇴를 누르면 저장되어 있던 user에 정보를 완전히 삭제할 예정이다. 
+
+<김홍진>
+
+프래그먼트로 변경된 학과 게시판을 프래그먼트로 옮기고 게시글을 누르면 화면이 뜨고 댓글을 작성하면 데이터베이스에 들어가고 그 값을 받으면 화면에 띄워주게 했다.
+
+<img width="40%" src="https://user-images.githubusercontent.com/29851704/117681234-db070280-b1ec-11eb-81bf-8652d693649d.gif"/>
+
+<img width="40%" src="https://user-images.githubusercontent.com/29851704/117681237-dcd0c600-b1ec-11eb-9bab-f8fdc0bfa8e8.gif"/>
+
+<데이터값 받아오기>
+  replyRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                replyList.clear();
+
+                for(DataSnapshot snap : snapshot.getChildren()){
+
+                    Map<String, Object> map = (Map<String, Object>) snap.getValue();
+                    String content = String.valueOf(map.get("content"));
+                    ReplyInfo replyInfo = new ReplyInfo(userName,content);
+
+                    //ReplyInfo replyInfo = snap.getValue(ReplyInfo.class);
+
+                    replyList.add(replyInfo);
+
+                }
+
+                replyAdapter.notifyDataSetChanged();
+            }
+	    문제점: 이 부분에서 데이터를 불러올때 다른 유저들이 쓴 댓글을이 불러와야 되는데 로그인한 유저가 쓴 댓글만 받아진다. 
+
+
