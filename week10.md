@@ -148,6 +148,6 @@ Navigation Bar를 사용하여 Fragment 화면 전환을 하는데 xml파일에�
 
 -> 랜덤매칭을 위한 사용자의 관심사 설정 페이지를 구현하였고, 화면 하단의 '관심사 설정' 버튼을 누르게 되면 랜덤매칭이 진행되도록 할 예정이다.
 
-<img src="https://user-images.githubusercontent.com/29966841/117689113-6768f380-b1f4-11eb-90cc-f1a066b46c3c.png" width="250" height="500">
+<img src="https://user-images.githubusercontent.com/29966841/117689113-6768f380-b1f4-11eb-90cc-f1a066b46c3c.png" width="500" height="250">
 
 
