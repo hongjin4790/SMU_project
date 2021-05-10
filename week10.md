@@ -91,37 +91,21 @@ userRef.addListenerForSingleValueEvent(new ValueEventListener() {
     @Override
     public void onCancelled(@NonNull DatabaseError error) {    }
 });
+
 하지만 데이터를 가져오는 과정에서 오류가 생겨서 해결하는 데 많은 시간을 썼다. 
 이 후 해야 할 일은 수정한 정보를 EditText에 적고 이 값으로 해당 DB에 값을 바꿀 것이고 탈퇴를 누르면 저장되어 있던 user에 정보를 완전히 삭제할 예정이다. 
 
-<김홍진>
+<안세준>
 
-프래그먼트로 변경된 학과 게시판을 프래그먼트로 옮기고 게시글을 누르면 화면이 뜨고 댓글을 작성하면 데이터베이스에 들어가고 그 값을 받으면 화면에 띄워주게 했다.
+<img src="https://user-images.githubusercontent.com/29851772/117683668-43ef7a00-b1ef-11eb-9bea-b611d98ff40c.PNG" width="250" height="500">
 
-<img width="40%" src="https://user-images.githubusercontent.com/29851704/117681234-db070280-b1ec-11eb-81bf-8652d693649d.gif"/>
+- 채팅방 구현 및 디자인
 
-<img width="40%" src="https://user-images.githubusercontent.com/29851704/117681237-dcd0c600-b1ec-11eb-9bab-f8fdc0bfa8e8.gif"/>
+Navigation Bar를 사용하여 Fragment 화면 전환을 하는데 xml파일에서 디자인한 결과와 실제 핸드폰에서 보이는 화면이 다르고 백그라운드 이미지가 밀리는 현상이 발생했다.
+해결법으로 백그라운드 이미지를 사용하지않고 이미지뷰를 화면에 맞게 넣어주는 방법을 택했는데 이미지뷰의 비율이 잘 맞지 않아 여러 방법을 시도해본 결과 해결하였다. 
 
-<데이터값 받아오기>
-  replyRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                replyList.clear();
+채팅 기능 구현하는파트를 맡았는데 파이어베이스를 사용해야해서 코드를 찾아보았다. 관련한 코드가 있는데 오류가 많아 오류를 잡기위해 
+공부중이다. 
 
-                for(DataSnapshot snap : snapshot.getChildren()){
-
-                    Map<String, Object> map = (Map<String, Object>) snap.getValue();
-                    String content = String.valueOf(map.get("content"));
-                    ReplyInfo replyInfo = new ReplyInfo(userName,content);
-
-                    //ReplyInfo replyInfo = snap.getValue(ReplyInfo.class);
-
-                    replyList.add(replyInfo);
-
-                }
-
-                replyAdapter.notifyDataSetChanged();
-            }
-	    문제점: 이 부분에서 데이터를 불러올때 다른 유저들이 쓴 댓글을이 불러와야 되는데 로그인한 유저가 쓴 댓글만 받아진다. 
-
-
+채팅목록중 하나를 클릭하여 채팅방에 들어가는 기능은 구현했는데 확인하지 않은 메시지 중 마지막에 받은 메시지 혹은 내가 마지막에 보낸 메시지를 
+채팅방 미리보기에 띄워줘야하는데 방법을 찾는중이다. 
