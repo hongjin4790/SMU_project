@@ -65,3 +65,31 @@
 }
 
 <한창훈>
+회원가입과 내 정보를 입력했으면 이를 볼 수 있어야 하고 정보 수정, 비밀번호 재설정, 회원 탈퇴도 해야함으로 이번주부터 이 기능들을 구현하고 있다. 
+
+먼저 회원정보 수정기능을 하기 위해 DB에 저장된 데이터를 가져와야 한다. 그러기 위해선 현재 로그인 되어있는 유저에 정보를 가져와야함으로 아래 코드를 작성한다.
+FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+database = FirebaseDatabase.getInstance();
+
+이제 유저에 저장되어있는 이름, 주소, 생년월일, 전화번호 등을 가져온다.
+DatabaseReference userRef = database.getReference("users").child(user.getUid());
+
+userRef.addListenerForSingleValueEvent(new ValueEventListener() {
+    @Override
+    public void onDataChange(@NonNull DataSnapshot snapshot) {
+        String name = snapshot.child("name").getValue(String.class);
+        String address = snapshot.child("address").getValue(String.class);
+        String phoneNumber = snapshot.child("phoneNumber").getValue(String.class);
+        String birthDay = snapshot.child("birthDay").getValue(String.class);
+
+        nameCon.setText(name);
+        addressCon.setText(address);
+        phoneCon.setText(phoneNumber);
+        birthCon.setText(birthDay);
+    }
+
+    @Override
+    public void onCancelled(@NonNull DatabaseError error) {    }
+});
+하지만 데이터를 가져오는 과정에서 오류가 생겨서 해결하는 데 많은 시간을 썼다. 
+이 후 해야 할 일은 수정한 정보를 EditText에 적고 이 값으로 해당 DB에 값을 바꿀 것이고 탈퇴를 누르면 저장되어 있던 user에 정보를 완전히 삭제할 예정이다. 
