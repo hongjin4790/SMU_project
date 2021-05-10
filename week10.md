@@ -109,3 +109,33 @@ Navigation Bar를 사용하여 Fragment 화면 전환을 하는데 xml파일에�
 
 채팅목록중 하나를 클릭하여 채팅방에 들어가는 기능은 구현했는데 확인하지 않은 메시지 중 마지막에 받은 메시지 혹은 내가 마지막에 보낸 메시지를 
 채팅방 미리보기에 띄워줘야하는데 방법을 찾는중이다. 
+
+<김홍진>
+
+프래그먼트로 변경된 학과 게시판을 프래그먼트로 옮기고 게시글을 누르면 화면이 뜨고 댓글을 작성하면 데이터베이스에 들어가고 그 값을 받으면 화면에 띄워주게 했다.
+
+<img width="40%" src="https://user-images.githubusercontent.com/29851704/117681234-db070280-b1ec-11eb-81bf-8652d693649d.gif"/>
+
+<img width="40%" src="https://user-images.githubusercontent.com/29851704/117681237-dcd0c600-b1ec-11eb-9bab-f8fdc0bfa8e8.gif"/>
+
+<데이터값 받아오기>
+  replyRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                replyList.clear();
+
+                for(DataSnapshot snap : snapshot.getChildren()){
+
+                    Map<String, Object> map = (Map<String, Object>) snap.getValue();
+                    String content = String.valueOf(map.get("content"));
+                    ReplyInfo replyInfo = new ReplyInfo(userName,content);
+
+                    //ReplyInfo replyInfo = snap.getValue(ReplyInfo.class);
+
+                    replyList.add(replyInfo);
+
+                }
+
+                replyAdapter.notifyDataSetChanged();
+            }
+	    문제점: 이 부분에서 데이터를 불러올때 다른 유저들이 쓴 댓글을이 불러와야 되는데 로그인한 유저가 쓴 댓글만 받아진다. 
