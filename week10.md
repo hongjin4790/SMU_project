@@ -1,4 +1,4 @@
-<week10>
+## WEEK 10
 	
 
 <황의혁>
@@ -64,4 +64,4 @@
     purchasableList.add("one_item") // 1번만 살 수 있는 아이템
 }
 
-
+<한창훈>
