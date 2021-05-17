@@ -69,11 +69,11 @@
 - 코드를 필요에 맞게 편집하는 과정에서 gradle버젼 차이로 인한 오류들과 데이터베이스 연동하는 과정에서 해결하기 어려운 오류들이 너무 많이 발생하여
   매칭 관련된 코드를 분석하여 직접 '랜덤매칭' 코드를 작성하기로 하였다.
   
-      //매칭함수
-    void getMatchedMember() {
-        mMemberArrayList = new ArrayList<>(); //모든 회원 리스트
-        mMatchedArrayList = new ArrayList<>(); //나와 괌심사가 겹치는 회원 리스트
-        myInterestArray = new ArrayList<>();  //나의 관심사 리스트
+       //매칭함수
+       void getMatchedMember() {
+           mMemberArrayList = new ArrayList<>(); //모든 회원 리스트
+           mMatchedArrayList = new ArrayList<>(); //나와 괌심사가 겹치는 회원 리스트
+           myInterestArray = new ArrayList<>();  //나의 관심사 리스트
 
         for (DataSnapshot child : mSnapMemberInfo.getChildren()) {
             UserModel userModel = child.getValue(UserModel.class);
