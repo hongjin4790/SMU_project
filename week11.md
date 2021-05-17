@@ -63,7 +63,7 @@
 
 
 
-<정지원>
+<정지원> <>
 
 - 오픈소스를 이용하여 관심사가 겹치는 상대를 매칭하여 채팅방을 만들어주는 기능을 구현하려 하였다.
 - 코드를 필요에 맞게 편집하는 과정에서 gradle버젼 차이로 인한 오류들과 데이터베이스 연동하는 과정에서 해결하기 어려운 오류들이 너무 많이 발생하여
@@ -134,12 +134,9 @@
                             if (mMatchedArrayList.contains(item) == false)
                                 mMatchedArrayList.add(item);
                         }
-
                     }
-
                 }
             }
-
         }
         
         int MatchedMax = 0;
