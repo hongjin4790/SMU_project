@@ -63,4 +63,112 @@
 
 
 
+<정지원>
 
+- 오픈소스를 이용하여 관심사가 겹치는 상대를 매칭하여 채팅방을 만들어주는 기능을 구현하려 하였다.
+- 코드를 필요에 맞게 편집하는 과정에서 gradle버젼 차이로 인한 오류들과 데이터베이스 연동하는 과정에서 해결하기 어려운 오류들이 너무 많이 발생하여
+  매칭 관련된 코드를 분석하여 직접 '랜덤매칭' 코드를 작성하기로 하였다.
+  
+      //매칭함수
+    void getMatchedMember() {
+        mMemberArrayList = new ArrayList<>(); //모든 회원 리스트
+        mMatchedArrayList = new ArrayList<>(); //나와 괌심사가 겹치는 회원 리스트
+        myInterestArray = new ArrayList<>();  //나의 관심사 리스트
+
+        for (DataSnapshot child : mSnapMemberInfo.getChildren()) {
+            UserModel userModel = child.getValue(UserModel.class);
+
+            String FbUserId = userModel.uid;
+            String FbUserName = userModel.userName;
+            String FbInterest = userModel.interest;
+            String FbRefuseMatch = userModel.refuseMatch;
+
+            /**
+             * 내 아이디와 동일할 경우 나의 관심사를 저장한다.
+             */
+            if (FbUserId.equals(Storage.MyId)) {
+
+                String Interest = FbInterest;
+                String[] split = Interest.split("#");
+                if (split != null) {
+                    for (int i = 0; i < split.length; i++) {
+                        if (split[i].equals("") == false)
+                            myInterestArray.add(split[i]);
+                    }
+                }
+            }
+            /**
+             * 나를 제외한 모든 회원의 정보를 저장한다.
+             */
+            else {
+                UserModel item = new UserModel();
+                item.uid = FbUserId;
+                item.userName = FbUserName;
+                item.interest = FbInterest;
+                item.refuseMatch = FbRefuseMatch;
+
+                mMemberArrayList.add(item);
+            }
+        }
+
+        /**
+         * 나를 제외한 모든 회원의 정보를 검색한다.
+         */
+        for (UserModel item : mMemberArrayList) {
+
+            if (item.refuseMatch.equals("T"))
+                continue;
+
+            //회원의 관심사 정보를 가져온다.
+            String interest = item.interest;
+            String[] memberInterest = interest.split("#");
+            int matchedCnt = 0;
+
+            if (memberInterest != null) {
+                for (int i = 0; i < memberInterest.length; i++) {
+                    for (String myinterest : myInterestArray) {
+                        //나의 관심사와 회원의 관심사가 일치하는게 존재할 경우
+                        if (myinterest.equals(memberInterest[i])) {
+                            matchedCnt++;
+                            item.interestCnt = matchedCnt;
+                            if (mMatchedArrayList.contains(item) == false)
+                                mMatchedArrayList.add(item);
+                        }
+
+                    }
+
+                }
+            }
+
+        }
+        
+        int MatchedMax = 0;
+        UserModel MatchedMember = null;  //매칭 멤버
+
+        //관심사가 1개이상 겹치는 회원리스트를 검색
+        for (UserModel item : mMatchedArrayList) {
+            //나의 대화상대 차단 멤버일 경우
+            if (Storage.MyBlockedId.contains(item.uid))
+                continue;
+            //관심사가 가장 많이 겹치는 회원의 정보를 가져온다.
+            if (MatchedMax == 0) {    //관심사가 아예 안겹칠 경우
+                MatchedMax = item.interestCnt;
+                MatchedMember = item;
+            } else {
+                if (item.interestCnt > MatchedMax)
+                    MatchedMember = item;
+            }
+        }
+        if (MatchedMember == null) {
+            Activity root = getActivity();
+            Toast.makeText(root, "매칭된 회원이 없습니다.", Toast.LENGTH_SHORT).show();
+            //mProgressDlg.dismiss();
+            return;
+        }
+
+        Activity root = getActivity();
+        Intent intent = new Intent(root, MessageActivity.class);
+        intent.putExtra("destinationUid", MatchedMember.uid);
+        startActivity(intent);
+
+    }
