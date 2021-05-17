@@ -39,16 +39,25 @@
 <황의혁>
 
 결제 시스템이 잘 작동 하는지 확인하기 위해 모의 앱을 만들어 실험해봤다.
-[20210517_215713](https://user-images.githubusercontent.com/79883776/118503788-e8c90480-b765-11eb-91d7-226c34ac329a.png)
+<img width = "50%" src ="https://user-images.githubusercontent.com/79883776/118503788-e8c90480-b765-11eb-91d7-226c34ac329a.png"/>
+
+인앱 상품에 두 상품을 등록시켜준다.
+
+<img width = "50%" src = "https://user-images.githubusercontent.com/79883776/118506088-faaba700-b767-11eb-95af-af27679ecf1e.png"/>
+
 
 일단 처음 화면은 한 번 구매하면 계속 사용할 수 있는 아이템과, 그 밑은 일회성 아이템이다.
-![KakaoTalk_20210517_232427989_02](https://user-images.githubusercontent.com/79883776/118505237-342fe280-b767-11eb-823e-32f60a0861ff.jpg)
+
+<img width ="40%" src ="https://user-images.githubusercontent.com/79883776/118505237-342fe280-b767-11eb-823e-32f60a0861ff.jpg"/>
 
 한 번 구매하면 계속 사용할 수 있는 아이템을 눌러보겠다.!
-[KakaoTalk_20210517_232427989_01](https://user-images.githubusercontent.com/79883776/118505302-43af2b80-b767-11eb-8bd4-11b70ed5e317.jpg)
+
+<img width ="40%" src="https://user-images.githubusercontent.com/79883776/118505302-43af2b80-b767-11eb-8bd4-11b70ed5e317.jpg"/>
 
 그다음 결제 버튼을 누르면
-![KakaoTalk_20210517_232427989](https://user-images.githubusercontent.com/79883776/118505360-4e69c080-b767-11eb-8f2a-8a6c715b1103.jpg)
+
+<img width ="40%" src ="https://user-images.githubusercontent.com/79883776/118505360-4e69c080-b767-11eb-8f2a-8a6c715b1103.jpg"/>
+
 
 결제 완료가 나타난다.
 
