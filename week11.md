@@ -17,3 +17,24 @@
 그리고 학생들이 다 볼 수 있는 학교게시판을 만들었다. 아래의 사진은 학교게시판의 DB 구조이다.
 
 ![학교게시판](https://user-images.githubusercontent.com/29851704/118490945-78b48180-b759-11eb-8868-9f533c9b7bdc.PNG)
+
+
+<한창훈>
+지난번 파이어베이스에서 안드로이드 스튜디오로 데이터를 가져오는 과정에서 오류가 발생했고 이를 해결했다. 이번주에는 그 후 작업들을 진행하였다.
+
+먼저 내정보 화면이다. 이 화면에서는 내가 회원가입하고 난 후 입력했던 이름,전화번호, 주소, 학과, 성별이 나오게 된다. 내정보 화면에서 회원탈퇴를 누르게 되면 자신이 가입했던 모든 정보들이 삭제된다.
+<img width="40%" src="https://user-images.githubusercontent.com/79888537/118497364-f7142200-b75f-11eb-8ba6-d98f0795be84.png"/>
+
+위에 화면에서 수정이 필요하면 전화번호, 주소, 학과를 연필버튼을 눌러 EditText가 나오게 한다. 여기서 수정하고 싶은 정보를 입력하면 정보가 바뀌게 된다. 아래와 같이 주소에 Seoul을 입력하고 수정버튼을 누르게 되면 데이터베이스에 있는 값도 자동으로 바뀌게 되고 내정보화면에 값도 업데이트가 된다.
+<img width="40%" src="https://user-images.githubusercontent.com/79888537/118498092-9fc28180-b760-11eb-953a-838c2baa2279.png"/>
+<img width="40%" src="https://user-images.githubusercontent.com/79888537/118498541-18c1d900-b761-11eb-9534-14b4478f9d63.png"/>
+<img width="40%" src="https://user-images.githubusercontent.com/79888537/118498274-d3051080-b760-11eb-9079-bebe908ef5f9.png">
+<img width="40%" src="https://user-images.githubusercontent.com/79888537/118498288-d5676a80-b760-11eb-8276-ecb19ade8d9a.png">
+
+기본적인 회원정보를 수정할 수 있을 뿐만 아니라 비밀번호 재설정도 할 수 있다. 여기서 자신이 원하는 비밀번호를 입력하고 재설정을 누르면 바뀌게 된다.
+<img width="40%" src="https://user-images.githubusercontent.com/79888537/118498786-59b9ed80-b761-11eb-8eed-3b3f8cd688f0.png">
+
+
+
+
+
