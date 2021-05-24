@@ -21,3 +21,8 @@
 
 <img width="50%" src="https://user-images.githubusercontent.com/29966841/119371847-bb460300-bcf1-11eb-8c49-8f43844101bc.png"/>
 
+- 매칭 완료 시
+
+-> 
+
+<img width="30%" src="https://user-images.githubusercontent.com/29966841/119374240-4e803800-bcf4-11eb-8758-d9bb8bfa8085.png"/>
