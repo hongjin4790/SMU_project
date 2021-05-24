@@ -33,52 +33,50 @@
     class TimeThread extends Thread{
         @Override
         public void run() {
-
+        
             while(isReady)
             {
                 try {
-
                     matchingMember();
                     sleep(1000);
                     Log.d( "사이즈: ", String.valueOf(matchedUidArrayList.size()));
                     if(matchedUidArrayList.size() == 2 && Storage.MyInterest.equals("1대1") ) // 관심사 2인 선택
                     {
                         isReady=false;
+                        
                         //uid intent로 보내줌
                         Activity root = getActivity();
                         Intent intent = new Intent(root,MessageActivity.class);
                         intent.putStringArrayListExtra("destinationUid",matchedUidArrayList);
                         startActivity(intent);
-
+                        
                         matchedUidArrayList.clear();
-
-
                     }
                     else if(matchedUidArrayList.size() == 4 && Storage.MyInterest.equals("2대2"))
                     {
                         isReady=false;
+                        
                         Activity root = getActivity();
                         Intent intent = new Intent(root,MessageActivity.class);
                         intent.putStringArrayListExtra("destinationUid",matchedUidArrayList);
                         startActivity(intent);
                         matchedUidArrayList.clear();
                         sleep(1000);
+                        
                         matching_removeUser();
-
                     }
                     else if(matchedUidArrayList.size() == 3 && Storage.MyInterest.equals("3인"))
                     {
                         isReady=false;
-
+                        
                         Activity root = getActivity();
                         Intent intent = new Intent(root,MessageActivity.class);
                         intent.putStringArrayListExtra("destinationUid",matchedUidArrayList);
                         startActivity(intent);
                         matchedUidArrayList.clear();
                         sleep(1000);
+                        
                         matching_removeUser();
-
-
                     }
                     else if(matchedUidArrayList.size() == 2 && Storage.MyInterest.equals("2인"))
                     {
@@ -90,18 +88,10 @@
                         startActivity(intent);
 
                         matchedUidArrayList.clear();
-
                     }
-
-
-
-
                 }catch (InterruptedException e){
                     e.printStackTrace();
                 }
-
-
-
             }
         }
     }
