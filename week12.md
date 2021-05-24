@@ -19,5 +19,5 @@
 -> 아래의 db화면을 보면 '2대2' 매칭조건을 선택하고, '친구 찾기' 버튼을 누른 사용자들의 UID가 db에 들어오는 것을 볼 수 있다. '2대2' 매칭의
    인원수는 4인이기 때문에 4명의 UID가 db에 들어와야 매칭이 실행된다.
 
-<img width="30%" src="https://user-images.githubusercontent.com/29966841/119371847-bb460300-bcf1-11eb-8c49-8f43844101bc.png"/>
+<img width="40%" src="https://user-images.githubusercontent.com/29966841/119371847-bb460300-bcf1-11eb-8c49-8f43844101bc.png"/>
 
