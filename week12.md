@@ -65,7 +65,7 @@
                         matchedUidArrayList.clear();
                         sleep(1000);
                         
-                        matching_removeUser();
+                        matching_removeUser(); // 매칭이 완료되면 사용자 UID 삭제
                     }
                     
                     else if(matchedUidArrayList.size() == 3 && Storage.MyInterest.equals("3인"))
