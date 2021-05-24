@@ -30,7 +30,7 @@
 
 <매칭조건 설정을 통한 랜덤매칭 코드구성>
 
-class TimeThread extends Thread{
+    class TimeThread extends Thread{
         @Override
         public void run() {
 
