@@ -27,3 +27,80 @@
    또한 짜여진 코드에 의해 매칭이 완료되는 순간 데이터베이스에서 매칭된 사용자의 UID가 삭제되게 된다.
 
 <img width="30%" src="https://user-images.githubusercontent.com/29966841/119374240-4e803800-bcf4-11eb-8758-d9bb8bfa8085.png"/>
+
+<매칭조건 설정을 통한 랜덤매칭 코드구성>
+class TimeThread extends Thread{
+        @Override
+        public void run() {
+
+            while(isReady)
+            {
+                try {
+
+                    matchingMember();
+                    sleep(1000);
+                    Log.d( "사이즈: ", String.valueOf(matchedUidArrayList.size()));
+                    if(matchedUidArrayList.size() == 2 && Storage.MyInterest.equals("1대1") ) // 관심사 2인 선택
+                    {
+                        isReady=false;
+                        //uid intent로 보내줌
+                        Activity root = getActivity();
+                        Intent intent = new Intent(root,MessageActivity.class);
+                        intent.putStringArrayListExtra("destinationUid",matchedUidArrayList);
+                        startActivity(intent);
+
+                        matchedUidArrayList.clear();
+
+
+                    }
+                    else if(matchedUidArrayList.size() == 4 && Storage.MyInterest.equals("2대2"))
+                    {
+                        isReady=false;
+                        Activity root = getActivity();
+                        Intent intent = new Intent(root,MessageActivity.class);
+                        intent.putStringArrayListExtra("destinationUid",matchedUidArrayList);
+                        startActivity(intent);
+                        matchedUidArrayList.clear();
+                        sleep(1000);
+                        matching_removeUser();
+
+                    }
+                    else if(matchedUidArrayList.size() == 3 && Storage.MyInterest.equals("3인"))
+                    {
+                        isReady=false;
+
+                        Activity root = getActivity();
+                        Intent intent = new Intent(root,MessageActivity.class);
+                        intent.putStringArrayListExtra("destinationUid",matchedUidArrayList);
+                        startActivity(intent);
+                        matchedUidArrayList.clear();
+                        sleep(1000);
+                        matching_removeUser();
+
+
+                    }
+                    else if(matchedUidArrayList.size() == 2 && Storage.MyInterest.equals("2인"))
+                    {
+                        isReady=false;
+
+                        Activity root = getActivity();
+                        Intent intent = new Intent(root,MessageActivity.class);
+                        intent.putStringArrayListExtra("destinationUid",matchedUidArrayList);
+                        startActivity(intent);
+
+                        matchedUidArrayList.clear();
+
+                    }
+
+
+
+
+                }catch (InterruptedException e){
+                    e.printStackTrace();
+                }
+
+
+
+            }
+        }
+    }
