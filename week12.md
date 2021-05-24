@@ -29,6 +29,7 @@
 <img width="30%" src="https://user-images.githubusercontent.com/29966841/119374240-4e803800-bcf4-11eb-8758-d9bb8bfa8085.png"/>
 
 <매칭조건 설정을 통한 랜덤매칭 코드구성>
+
 class TimeThread extends Thread{
         @Override
         public void run() {
