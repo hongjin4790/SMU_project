@@ -40,6 +40,7 @@
 <안세준>
 
 <img width ="35%" height = "30%" src ="https://user-images.githubusercontent.com/29851772/120220677-18a0fd80-c278-11eb-8132-996ba80d7971.png">
+<img width ="35%" height = "30%" src ="https://user-images.githubusercontent.com/29851772/120222610-2ad06b00-c27b-11eb-932e-e0632f76d39e.gif">
 
 다이아몬드라는 하나의 아이템을 설정해 매칭 횟수를 제한하고 결제기능을 사용하여 다이아몬드를 충전하며 사용하게끔 기능을 추가했다. 
 
