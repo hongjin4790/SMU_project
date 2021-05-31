@@ -37,3 +37,10 @@
 
  <img width ="35%" height = "30%" src ="https://user-images.githubusercontent.com/79883776/120217407-433c8780-c273-11eb-9638-d7eb4a0cbfb9.jpg">
 
+<안세준>
+
+<img width ="35%" height = "30%" src ="https://user-images.githubusercontent.com/29851772/120220677-18a0fd80-c278-11eb-8132-996ba80d7971.png">
+
+다이아몬드라는 하나의 아이템을 설정해 매칭 횟수를 제한하고 결제기능을 사용하여 다이아몬드를 충전하며 사용하게끔 기능을 추가했다. 
+
+단순 충전 이외의 일정 시간마다 자동 충전되는 기능도 추가해보려고 시도중이다.
