@@ -1,7 +1,7 @@
 # WEEK 13
+https://github.com/asjjun/SMU/tree/0601result
 
 <김홍진>
-
 
 <채팅 파이어베이스 데이터베이스>
 
@@ -24,7 +24,6 @@
 <img width="410" alt="캡처" src="https://user-images.githubusercontent.com/29851704/120212665-39b02100-c26d-11eb-832b-c48dbe91456b.PNG">
 
 <황의혁>
-
 
 <슴우라는 로고 어플의 이름을 영어 약자(SW)로 표현>
 
