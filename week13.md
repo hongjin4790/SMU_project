@@ -25,12 +25,15 @@
 
 <황의혁>
 
+
 <슴우라는 로고 어플의 이름을 영어 약자(SW)로 표현>
+
 
 <img width="25%" height ="25%" src ="https://user-images.githubusercontent.com/79883776/120217193-fc4e9200-c272-11eb-978c-66403f1b0827.png">
      
      
 <로그인 화면 디자인 및, 전반적으로 사용될 폰트와 버튼 생성>
+
 
  <img width ="35%" height = "30%" src ="https://user-images.githubusercontent.com/79883776/120217407-433c8780-c273-11eb-9638-d7eb4a0cbfb9.jpg">
 
