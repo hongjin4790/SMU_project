@@ -57,10 +57,13 @@ FloatingAction Button의 이미지와 버튼 클릭시 튀어나오는 버튼들
 회원정보입력과 회원정보수정, 메인 엑티비티에 디자인을 살짝 수정하였다.
 
 <회원정보입력 엑티비티>
+
 <img width="25%" height ="25%" src ="https://user-images.githubusercontent.com/79888537/120249152-e497fd80-c2b4-11eb-8f42-9212958fc7c5.PNG">
 
 <메인엑티비티>
+
 <img width="25%" height ="25%" src ="https://user-images.githubusercontent.com/79888537/120249188-072a1680-c2b5-11eb-8e41-d60db796c841.PNG">
+
 기존의 바텀네비게이션뷰에 더보기란이 있고 그 안에 내정보, 비밀정보 수정, 상점이 있었다. 여기서 내정보와 비밀정보 수정을 합치고 액셔바 버튼으로 빼고 더보기란을 상점으로 바꿨다.
 그리고 회원정보수정화면은 아직 버튼을 수정중에 있다.
 
