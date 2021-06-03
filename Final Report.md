@@ -70,7 +70,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 ### 게시판
 
-<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg"><img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg">
+<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg"><img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702563-31671880-c4ef-11eb-9f98-fba3d69e435a.jpg">
 <br/><br/>
 
 ## <h3>영상</h3>
