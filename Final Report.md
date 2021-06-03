@@ -1,7 +1,7 @@
 # SW(Sangmyung 友) 
 
 <p align="center">
-<img width="500px" src="https://user-images.githubusercontent.com/29851772/120695936-e5b07100-c4e6-11eb-886d-b64a5d3e882f.png">
+<img width="200px" src="https://user-images.githubusercontent.com/29851772/120695936-e5b07100-c4e6-11eb-886d-b64a5d3e882f.png">
   
 
 <!-- TABLE OF CONTENTS -->
