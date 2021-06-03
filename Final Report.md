@@ -90,7 +90,6 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 
 <br/><br/>
-
 ### 인앱 결제
 
 - Google Console에 들어가 개발자 등록을 먼저 해준다 ($25 1회 최초 등록을 해야한다.)
@@ -126,14 +125,13 @@ APK가 업로드되면 수익창출 > 제품 > 인앱상품 순으로 들어가
 
 어플리케이션에서 사용할 아이템을 만들어 줍니다.
 
+<img width = "30%" height ="30%" src = "https://user-images.githubusercontent.com/79883776/120707555-71c99500-c4f5-11eb-8d5c-e1a760ca4eb3.JPG">
+
 (단, 인앱상품의 id를 지정해줄때 android studio의 MarketFragment에 있는 id값과 같게 해야함. )
 
  다이아몬드 세개 올린 인앱상품 사진
 
 <img width = "30%" height ="30%" src = "https://user-images.githubusercontent.com/79883776/120707098-df28f600-c4f4-11eb-81d1-aa3425e6e430.gif">
-
-
-
 
 
 
