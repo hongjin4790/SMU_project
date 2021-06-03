@@ -68,6 +68,32 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
   
 ## <h3>주요 기능 설명</h3>
 
+### 회원정보 입력
+회원가입 후 이메일 인증을 완료하면 회원정보를 입력할 수 있는 액티비티가 나온다.
+
+<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/79888537/120704049-0ed5ff00-c4f1-11eb-96d5-8c2324cb75bd.gif">
+<br/><br/>
+이름과 주소, 전화번호, 생년월일은 EditText밑에 정해진 숫자 범위를 넘어가면 빨간불이 들어온다. 
+이는 정해진 문자열 길이가 초과했다는 것을 의미한다. 만약 잘못 입력했다면 EditText 오른쪽 맨끝에 버튼을 눌러
+입력했던 값을 다 지워줄 수 있다.
+
+<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/79888537/120704139-2d3bfa80-c4f1-11eb-8039-0a782536d99c.gif">
+만약 저 범위를 벗어난채로 회원정보 등록을 하면 
+글자수가 너무 길다는 토스트 메세지가 나오게 된다. 
+
+<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/79888537/120704177-3d53da00-c4f1-11eb-884b-b0eb07d0e1a4.gif">
+또한 빈칸이 존재한 채로 회원정보 등록 버튼을 누르게 되면 빈칸을 입력하라는 토스트 메세지가 뜬다.
+
+### 회원정보 수정
+<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/79888537/120704253-565c8b00-c4f1-11eb-9041-5a671278e13a.jpg">
+회원가입하고 등록했던 정보들을 확인할 수 있는 액티비티이다. 메인엑티비티 우측 최상단 사람 모양 아이콘을 
+클릭하면 들어갈 수 있다. 이곳은 그림과 같은 디자인을 하고 있다.
+
+<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/79888537/120704310-696f5b00-c4f1-11eb-83e1-248294898866.gif">
+회원정보중에 수정할 수 있는 데이터는 전화번호, 주소, 학과를 변경 할 수 있다. 변경을 원하면  해당 텍스트뷰 
+오른쪽에 수정버튼을 클릭하면 수정할 데이터를 넣을 수 있는 EditText가 나오게 된다. 이곳에 데이터를 집어넣고
+정보수정을 누르면 수정을 원하는 부분만 바꿀 수 있게 된다.
+
 ### 게시판
 
 <img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg"><img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702563-31671880-c4ef-11eb-9f98-fba3d69e435a.jpg">
