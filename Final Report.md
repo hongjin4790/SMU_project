@@ -87,7 +87,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 <img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg"><img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702563-31671880-c4ef-11eb-9f98-fba3d69e435a.jpg">
 
 '학과 게시판'은  회원가입시 설정한 학과가 같은 이용자들 끼리만 사용할 수 있는 게시판입니다.<br/>
-'학교 게시판'은 학과 상관없이 모든 학교 학생들이 사용할 수 있는 게시판입니다. <br/><br/>
+'학교 게시판'은 학과 상관없이 모든 학교 학생들이 사용할 수 있는 게시판입니다. <br><br><br>
 
 <img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120928998-29db8580-c722-11eb-9a7c-058e21b90698.jpg"><img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120929012-3c55bf00-c722-11eb-93d9-6544f5b89169.jpg">
 
