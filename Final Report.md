@@ -101,6 +101,36 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 <br>
 이곳에 데이터를 집어넣고 정보수정을 누르면 수정을 원하는 부분만 바꿀 수 있게 된다.
 
+### <매칭 기능>
+
+<img width="40%" height = "50%"  src="https://user-images.githubusercontent.com/29851772/121031978-ce72cb80-c7e5-11eb-96b3-de71d616ac3d.gif"> <img width="40%" height = "50%"  src="https://user-images.githubusercontent.com/29851772/121032164-fcf0a680-c7e5-11eb-91b0-338c6977ceb6.gif">
+
+왼쪽을 보면 매칭 버튼 클릭 시 매칭 대기중이라는 표시로 로딩 애니메이션이 돌아가고 한번 더 클릭 시 해제되는 모습을 볼 수 있다.
+오른쪽은 매칭 버튼 클릭 후 관심사에 맞는 인원이 매칭 되었을때 매칭이 잡히고 채팅방이 만들어지는 모습이다. 
+
+<img width="90%" height = "60%"  src="https://user-images.githubusercontent.com/29851772/121031679-8784d600-c7e5-11eb-8304-887e31362403.gif">
+
+매칭이 잡히는 순간을 데이터베이스와 함께 보면 매칭을 누른 사람들이 테이블에 들어오고<br>
+오른쪽 에뮬레이터에서도 매칭버튼을 눌러주어 관심사의 인원을 충족 하는 순간 매칭이 잡히면서 테이블은 삭제된다. 
+
+<img width="90%" height = "60%"  src="https://user-images.githubusercontent.com/29851772/121031506-5b695500-c7e5-11eb-8094-780151777903.gif">
+
+관심사 별로 각각 테이블이 있어 관심사가 다르다면 함께 매칭되지않고 같은 관심사인 사람들끼리만 매칭 되는 모습이다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### <게시판>
 
 <img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg"> <img width="30%" height = "550dp" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702563-31671880-c4ef-11eb-9f98-fba3d69e435a.jpg">
