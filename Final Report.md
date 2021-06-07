@@ -15,14 +15,14 @@
       </ul>
     </li>
     <li>
-      <a href="#본문">본문</a>
+      <a href="#2-본문">본문</a>
       <ul>
         <li><a href="#로고-의미">로고 의미</a></li>
         <li><a href="#주요-기능-설명">주요 기능 설명</a></li>
         <li><a href="#영상">영상</a></li>
       </ul>
     </li>
-    <li><a href="#앱-다운로드-링크">앱 다운로드 링크</a></li>
+    <li><a href="#3-앱-다운로드-링크">앱 다운로드 링크</a></li>
   </ol>
 </details>
 
@@ -39,78 +39,67 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
          
        - 회원가입시 이메일과 비밀번호를 입력해야하는데 비밀번호를 6글자 이상으로 설정해주어야한다.
   
-## 본문
+## 2. 본문
  <h3>로고 의미</h3>
   
- 저희 로고는 상명대학교와 친구를 의미하는 ‘友 벗 우’를 합친 슴우라 하여 영어로 SW입니다.
+ <h4>저희 로고는 상명대학교와 친구를 의미하는 ‘友 벗 우’를 합친 슴우라 하여 영어로 SW입니다.</h4>
   
  <h3>주요 기능 설명</h3>
- ### <로딩 창>
+ 
+ ### <로딩 화면>
 
 
  <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79883776/121015827-649ef580-c7d6-11eb-8cc5-06c5dd287bf9.png ">
  
  
- ### <로그인 창>
+ ### <로그인 화면>
 
+<img width="30%" height = "500%"  src="https://user-images.githubusercontent.com/79883776/121015875-72547b00-c7d6-11eb-86b1-32653126c0c0.png"> <img width="30%" height = "556dp"  src="https://user-images.githubusercontent.com/29851772/121023850-a3d14480-c7de-11eb-8bcc-6c164519a61c.PNG">
 
-
- 어플리케이션을 실행 시킨 후 Login layout이 나온다.
- 
- <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79883776/121015875-72547b00-c7d6-11eb-86b1-32653126c0c0.png">
- 
- 
+ 어플리케이션을 실행 시킨 후 로그인 화면이 나온다. <br>회원가입 버튼을 누르고 학교 이메일과 사용할 비밀번호를 입력한다. 
  
  ### <이메일 인증>
  
-  
- 인증이메일버튼을 클릭하면 자신이 등록한 이메일로 메일이 간다.
+<img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016972-b98f3b80-c7d7-11eb-9aa9-15ae993e8f74.png"><img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016938-b431f100-c7d7-11eb-88ca-d34b4f790d2a.png">
  
+회원가입한 이메일로 로그인을 해주고 인증 이메일 보내기 버튼을 클릭하면 자신이 등록한 이메일로 메일이 간다. <br>그걸 클릭해주면 이메일 인증 완료.
 
- <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016972-b98f3b80-c7d7-11eb-9aa9-15ae993e8f74.png">
-
- 그걸 클릭해주면 이메일 인증 완료.
- 
- <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016938-b431f100-c7d7-11eb-88ca-d34b4f790d2a.png">
- 
 ### <회원정보 입력>
-회원가입 후 이메일 인증을 완료하면 회원정보를 입력할 수 있는 액티비티가 나온다.
-
 
 <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705692-1b5b5700-c4f3-11eb-994a-3edb0a2754cd.gif">
 
-이름과 주소, 전화번호, 생년월일은 EditText밑에 정해진 숫자 범위를 넘어가면 빨간불이 들어온다. 
-이는 정해진 문자열 길이가 초과했다는 것을 의미한다. 만약 잘못 입력했다면 EditText 오른쪽 맨끝에 버튼을 눌러
-입력했던 값을 다 지워줄 수 있다.
-
-
+이메일 인증을 완료하면 회원정보를 입력할 수 있는 화면이 나온다.
+<br>
+이름과 주소, 전화번호, 생년월일은 EditText밑에 정해진 숫자 범위를 넘어가면 빨간불이 들어온다.
+<br>
+이는 정해진 문자열 길이가 초과했다는 것을 의미한다. 
+<br>
+만약 잘못 입력했다면 EditText 오른쪽 맨끝에 버튼을 눌러 입력했던 값을 다 지워줄 수 있다.
 
 <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705698-1e564780-c4f3-11eb-9261-bd3888188fbe.gif">
 
 만약 저 범위를 벗어난채로 회원정보 등록을 하면 
 글자수가 너무 길다는 토스트 메세지가 나오게 된다. 
 
-
-
 <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705707-21513800-c4f3-11eb-8045-43356da01620.gif">
 
 또한 빈칸이 존재한 채로 회원정보 등록 버튼을 누르게 되면 빈칸을 입력하라는 토스트 메세지가 뜬다.
 
-
-
 ### <회원정보 수정>
+
 <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705755-2dd59080-c4f3-11eb-808b-0d0c130325ce.jpg">
 
-회원가입하고 등록했던 정보들을 확인할 수 있는 액티비티이다. 메인엑티비티 우측 최상단 사람 모양 아이콘을 
-클릭하면 들어갈 수 있다. 이곳은 그림과 같은 디자인을 하고 있다.
-
+회원가입하고 등록했던 정보들을 확인할 수 있는 액티비티이다. 
+<br>메인엑티비티 우측 최상단 사람 모양 아이콘을 클릭하면 들어갈 수 있다.
 
 
 <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705780-362dcb80-c4f3-11eb-9e6d-bcc7ce47c8db.gif">
 
-회원정보중에 수정할 수 있는 데이터는 전화번호, 주소, 학과를 변경 할 수 있다. 변경을 원하면  해당 텍스트뷰 
-오른쪽에 수정버튼을 클릭하면 수정할 데이터를 넣을 수 있는 EditText가 나오게 된다. 이곳에 데이터를 집어넣고
-정보수정을 누르면 수정을 원하는 부분만 바꿀 수 있게 된다.
+회원정보중에 수정할 수 있는 데이터는 전화번호, 주소, 학과를 변경 할 수 있다.
+<br> 
+변경을 원하면  해당 텍스트뷰 오른쪽에 수정버튼을 클릭하면 수정할 데이터를 넣을 수 있는 EditText가 나오게 된다. 
+<br>
+이곳에 데이터를 집어넣고 정보수정을 누르면 수정을 원하는 부분만 바꿀 수 있게 된다.
 
 ### <게시판>
 
@@ -203,11 +192,11 @@ https://www.youtube.com/watch?v=q2RzgrhNzbU
 
   
   
-## <앱 다운로드 링크>
+## 3. 앱 다운로드 링크
 
-https://github.com/asjjun/SMU
+https://github.com/asjjun/SMU  <- 링크에 들어가셔서 어플 다운로드 가능합니다.
 
-  
+
   
   <h4> ** 결제 공개 테스트 심사중 ** <h4> 
   
