@@ -105,8 +105,8 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 <img width="40%" height = "50%"  src="https://user-images.githubusercontent.com/29851772/121031978-ce72cb80-c7e5-11eb-96b3-de71d616ac3d.gif"> <img width="40%" height = "50%"  src="https://user-images.githubusercontent.com/29851772/121032164-fcf0a680-c7e5-11eb-91b0-338c6977ceb6.gif">
 
-왼쪽을 보면 매칭 버튼 클릭 시 매칭 대기중이라는 표시로 로딩 애니메이션이 돌아가고 한번 더 클릭 시 해제되는 모습을 볼 수 있다.
-오른쪽은 매칭 버튼 클릭 후 관심사에 맞는 인원이 매칭 되었을때 매칭이 잡히고 채팅방이 만들어지는 모습이다. 
+왼쪽을 보면 매칭 버튼 클릭 시 매칭 대기중이라는 표시로 로딩 애니메이션이 돌아가고 한번 더 클릭 시 해제되는 모습을 볼 수 있다.<br>
+오른쪽은 매칭 버튼 클릭 후 관심사에 맞는 인원이 매칭 되었을때 매칭이 잡히고 채팅방이 만들어지는 모습이다. <br>
 매칭 후 생기는 채팅방과 채팅하는 장면은 아래 <a href="#영상">영상</a>에서 더 자세히 확인 할 수 있다.
 
 <img width="90%" height = "60%"  src="https://user-images.githubusercontent.com/29851772/121031679-8784d600-c7e5-11eb-8304-887e31362403.gif">
