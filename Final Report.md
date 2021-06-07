@@ -205,7 +205,7 @@ https://www.youtube.com/watch?v=q2RzgrhNzbU
   
 ## <앱 다운로드 링크>
 
-  // SMU 깃허브 링크
+https://github.com/asjjun/SMU
 
   
   
@@ -219,7 +219,7 @@ https://www.youtube.com/watch?v=q2RzgrhNzbU
   
   <연락 주소 :  904rla@gmail.com,
                weihyuk39@gmail.com,
-               asj4ever@gmail.com,
+               asjjun@naver.com,
                ckjjw5573@gmail.com
                >
   
