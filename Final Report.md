@@ -66,8 +66,13 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
   
  인증이메일버튼을 클릭하면 자신이 등록한 이메일로 메일이 간다.
  
- 그걸 클릭해주면 이메일 인증 완료.
+ <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016938-b431f100-c7d7-11eb-88ca-d34b4f790d2a.png">
+ 
 
+
+ 그걸 클릭해주면 이메일 인증 완료.
+ 
+ <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016972-b98f3b80-c7d7-11eb-9aa9-15ae993e8f74.png">
  
  
 ### <회원정보 입력>
