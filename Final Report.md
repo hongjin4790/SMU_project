@@ -91,6 +91,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 
 <img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120928998-29db8580-c722-11eb-9a7c-058e21b90698.jpg"><img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120929012-3c55bf00-c722-11eb-93d9-6544f5b89169.jpg">
+
 게시판 내의 게시글에는 이용자들끼리 댓글을 작성할 수도 있고, 오른쪽 사진과 같이 게시글에 사진을 첨부할 수도 있다.
 
 
