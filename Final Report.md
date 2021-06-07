@@ -41,9 +41,9 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
   
 ## 2. 본문
  <h3>로고 의미</h3>
-  
+
  <h4>저희 로고는 상명대학교와 친구를 의미하는 ‘友 벗 우’를 합친 슴우라 하여 영어로 SW입니다.</h4>
-  
+ <br><br> 
  <h3>주요 기능 설명</h3>
  
  ### <로딩 화면>
@@ -60,7 +60,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
  
  ### <이메일 인증>
  
-<img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016972-b98f3b80-c7d7-11eb-9aa9-15ae993e8f74.png"><img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016938-b431f100-c7d7-11eb-88ca-d34b4f790d2a.png">
+<img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016972-b98f3b80-c7d7-11eb-9aa9-15ae993e8f74.png"> <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016938-b431f100-c7d7-11eb-88ca-d34b4f790d2a.png">
  
 회원가입한 이메일로 로그인을 해주고 인증 이메일 보내기 버튼을 클릭하면 자신이 등록한 이메일로 메일이 간다. <br>그걸 클릭해주면 이메일 인증 완료.
 
@@ -103,15 +103,14 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 ### <게시판>
 
-어플 내 게시판은 '학과 게시판' ,'학교 게시판' 두가지로 나뉜다.
+<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg"> <img width="30%" height = "550dp" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702563-31671880-c4ef-11eb-9f98-fba3d69e435a.jpg">
 
-<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg"><img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702563-31671880-c4ef-11eb-9f98-fba3d69e435a.jpg">
-
-'학과 게시판'은  회원가입시 설정한 학과가 같은 이용자들 끼리만 사용할 수 있는 게시판이다.<br/>
+어플 내 게시판은 '학과 게시판', '학교 게시판' 두가지로 나뉜다.<br>
+'학과 게시판'은  회원가입시 설정한 학과가 같은 이용자들 끼리만 사용할 수 있는 게시판이다.<br>
 '학교 게시판'은 학과 상관없이 모든 학교 학생들이 사용할 수 있는 게시판이다. <br><br><br>
 
 
-<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120928998-29db8580-c722-11eb-9a7c-058e21b90698.jpg"><img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120929012-3c55bf00-c722-11eb-93d9-6544f5b89169.jpg">
+<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120928998-29db8580-c722-11eb-9a7c-058e21b90698.jpg"> <img width="30%" height = "540dp" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120929012-3c55bf00-c722-11eb-93d9-6544f5b89169.jpg">
 
 게시판 내의 게시글에는 이용자들끼리 댓글을 작성할 수도 있고, 오른쪽 사진과 같이 게시글에 사진을 첨부할 수도 있다.<br/><br/>
 
@@ -130,9 +129,6 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 'deptPosts'테이블에는 학과게시판에 작성된 게시물들의 작성 일시, 제목, 내용, 작성자UID가 저장되게 된다. 또한 작성자들의 학과별로 구분되어 데이터베이스에 저장되는것을 확인할 수 있다.
 
 
-<br><br>
-
-
 ### <인앱 결제>
 
 - Google Console에 들어가 개발자 등록을 먼저 해준다 ($25 1회 최초 등록을 해야한다.)
@@ -147,8 +143,6 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 테스터를 등록하면 아이디로 결제하는 건은
 
 테스트 건으로 처리되어 실제 돈이 청구되지 않는다. 
-
--라이센스 테스트
 
 <img width = "55%" height ="55%" src = "https://user-images.githubusercontent.com/79883776/120706077-9e7cad00-c4f3-11eb-8635-9e80e3fe3830.png">
 
@@ -172,14 +166,17 @@ APK가 업로드되면 수익창출 > 제품 > 인앱상품 순으로 들어가
 
 (단, 인앱상품의 id를 지정해줄때 android studio의 MarketFragment에 있는 id값과 같게 해야함. )
 
- 다이아몬드 세개 올린 인앱상품 사진
 
-<img width = "30%" height ="30%" src = "https://user-images.githubusercontent.com/79883776/120707098-df28f600-c4f4-11eb-81d1-aa3425e6e430.gif">
+<br>
+
+<img width = "30%" height ="550dp" src = "https://user-images.githubusercontent.com/79883776/120707098-df28f600-c4f4-11eb-81d1-aa3425e6e430.gif"> 
+
+ 다이아몬드 품목별 인앱상품 사진
+
+
+<img width = "30%" height ="30%" src = "https://user-images.githubusercontent.com/29851704/121016557-3b329980-c7d7-11eb-9861-d47c009b403e.jpg">
 
  다이아몬드 결제 내역
- 
- <img width = "30%" height ="30%" src = "https://user-images.githubusercontent.com/29851704/121016557-3b329980-c7d7-11eb-9861-d47c009b403e.jpg">
-
 
 
 
