@@ -94,7 +94,11 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 게시판 내의 게시글에는 이용자들끼리 댓글을 작성할 수도 있고, 오른쪽 사진과 같이 게시글에 사진을 첨부할 수도 있다.
 
+### 게시판 데이터베이스 부분
 
+<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120955102-9ccd1680-c78b-11eb-8ac9-8a558331f417.png">
+
+데이터베이스에 접속해보면 위의 사진과 같이 'SchoolPosts', 'deptPosts'로 학교게시판과 학과게시판이 나눠져 구성 되어있는것을 확인할 수 있다.
 
 <br><br>
 
