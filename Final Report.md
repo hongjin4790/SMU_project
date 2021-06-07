@@ -9,7 +9,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#어플-소개">어플 소개</a>
+      <a href="#1-어플-소개">어플 소개</a>
       <ul>
         <li><a href="#환경-설정">환경 설정</a></li>
       </ul>
