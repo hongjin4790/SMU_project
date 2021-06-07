@@ -199,8 +199,7 @@ APK가 업로드되면 수익창출 > 제품 > 인앱상품 순으로 들어가
   
   
   
-  //유튜브 링크
-  
+https://www.youtube.com/watch?v=q2RzgrhNzbU  
 
   
   
