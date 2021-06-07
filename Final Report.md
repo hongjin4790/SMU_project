@@ -63,12 +63,6 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
  
  ### <이메일 인증>
  
-   <img width="30%" height = "30%"  src=" https://user-images.githubusercontent.com/79883776/121016750-7b921780-c7d7-11eb-8d1b-a1936a7a294d.png">
-   
-
-  <img width="30%" height = "30%"  src=" https://user-images.githubusercontent.com/79883776/121016757-7cc34480-c7d7-11eb-90f4-2bd7c9a21fdb.png">
- 
-  
   
  인증이메일버튼을 클릭하면 자신이 등록한 이메일로 메일이 간다.
  
@@ -190,6 +184,9 @@ APK가 업로드되면 수익창출 > 제품 > 인앱상품 순으로 들어가
 
 <img width = "30%" height ="30%" src = "https://user-images.githubusercontent.com/79883776/120707098-df28f600-c4f4-11eb-81d1-aa3425e6e430.gif">
 
+ 다이아몬드 결제 내역
+ 
+ <img width = "30%" height ="30%" src = "https://user-images.githubusercontent.com/29851704/121016557-3b329980-c7d7-11eb-9861-d47c009b403e.jpg">
 
 
 
