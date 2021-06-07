@@ -209,7 +209,7 @@ https://www.youtube.com/watch?v=q2RzgrhNzbU
 
   
   
-  <h4> 결제 공개 테스트 심사중 <h4>
+ ** <h4> 결제 공개 테스트 심사중 <h4> **
   
   실제로 어플을 다운받고 결제 기능까지 구현해보고 싶은 분들은 
   
@@ -217,9 +217,9 @@ https://www.youtube.com/watch?v=q2RzgrhNzbU
   
   내부 테스트를 진행 할 수 있게 아래 주소로 연락을 주시면 도와드리겠습니다.
   
-  <연락 주소 :  904rla@gmail.com
-               weihyuk39@gmail.com
-               asj4ever@gmail.com
+  <연락 주소 :  904rla@gmail.com,
+               weihyuk39@gmail.com,
+               asj4ever@gmail.com,
                ckjjw5573@gmail.com
                >
   
