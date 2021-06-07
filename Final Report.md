@@ -59,21 +59,15 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
  
  <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79883776/121015875-72547b00-c7d6-11eb-86b1-32653126c0c0.png">
  
+ 
+ 
  ### <이메일 인증>
  
- 
-
   
  인증이메일버튼을 클릭하면 자신이 등록한 이메일로 메일이 간다.
  
  그걸 클릭해주면 이메일 인증 완료.
- 
- <img width="30%" height = "30%"  src=" https://user-images.githubusercontent.com/79883776/121016323-f3ac0d80-c7d6-11eb-941f-c1a4a896e19b.png">
 
-
-
- <img width="30%" height = "30%"  src=" https://user-images.githubusercontent.com/79883776/121016344-fc044880-c7d6-11eb-9a03-8607d9e7227f.png">
-  
  
  
 ### <회원정보 입력>
