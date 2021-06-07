@@ -171,7 +171,7 @@ APK가 업로드되면 수익창출 > 제품 > 인앱상품 순으로 들어가
   
 ## 앱 다운로드 링크
 
-  // SMU 깃허브 링크
+  https://github.com/hongjin4790/SMU
 
   
   
